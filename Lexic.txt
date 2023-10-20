@@ -12,18 +12,18 @@ a.Special symbols:
  - operators + - * / = < <= = >= <> % == 
  - separators [] {} : ; space
  - reserved words:
-	char if else int while begin end printf scanf
+	char if else int while begin end printf scanf string
 b.Identifiers 
  - identifier = letter {letter|digit}
  - letter = "A"|"B"|...|"Z"|"a"|"b"|...|"z"
  - digit = "0"|"1"|...|"9"
 
 c.Constants
-1. integer
+1. int
  - integer = "0"|["+"|"-"]nonzerodigit{digit}
  - nonzerodigit = "1"|"2"|...|"9"
  - digit = "0"|nonzerodigit
-2. character 
+2. char
  - character = "'"[letter|digit]"'"
  - letter = "A"|"B"|...|"Z"|"a"|"b"|...|"z"
  - digit = "0"|"1"|...|"9" 
