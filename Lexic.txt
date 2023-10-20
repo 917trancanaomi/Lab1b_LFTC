@@ -12,7 +12,7 @@ a.Special symbols:
  - operators + - * / = < <= = >= <> % == !
  - separators [] {} : ; space
  - reserved words:
-	char if else int while begin end printf scanf void
+	char if else int while begin end printf scanf
 b.Identifiers 
  - identifier = letter|{letter|digit}
  - letter = "A"|"B"|...|"Z"|"a"|"b"|...|"z"
