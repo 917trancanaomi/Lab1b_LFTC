@@ -1,0 +1,10 @@
+Code Review Oana
+
+- add "" to [ for an array
+	to respect the rules of the BNF
+- add "%" to lexic 
+- add "%" to syntax logic
+- add "%" to token
+	it was a forgotten operator
+- use only int and char or integer and character
+	
