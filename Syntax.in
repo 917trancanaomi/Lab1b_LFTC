@@ -10,11 +10,16 @@ declaration-statement = type identifier
 type = type-basic | array
 type-basic = "char" | "int" | "string"
 array = type-basic "[" number "]"
-assignment-statement = identifier "=" expression
+array-accessing = identifier "[" key "]"
+key = number | identifier
+assignment-statement = variable "=" expression
+variable = identifier | array-accessing
 expression = expression operator term | term
+operator = add-or-substract | multiply-or-divide
+add-or-substract = "+" | "-"
+multiply-or-divide = "*" | "/" | "%"
 term = term operator factor | factor
 factor = identifier | contant | "(" expression ")"
-operator = "+" | "-" | "/" | "*" | "%"
 if-statement = "IF" "(" condition ")" "{" statement-list "}"
 while-statement = "WHILE" "(" condition ")" "{" statement-list "}"
 condition = expression relation expression
