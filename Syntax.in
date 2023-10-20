@@ -14,7 +14,7 @@ assignment-statement = identifier "=" expression
 expression = expression operator term | term
 term = term operator factor | factor
 factor = identifier | contant | "(" expression ")"
-operator = "+" | "-" | "/" | "*"
+operator = "+" | "-" | "/" | "*" | "%"
 if-statement = "IF" "(" condition ")" "{" statement-list "}"
 while-statement = "WHILE" "(" condition ")" "{" statement-list "}"
 condition = expression relation expression
