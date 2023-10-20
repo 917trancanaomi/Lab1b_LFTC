@@ -30,7 +30,7 @@
  'while' (Reserved Word)
  'begin' (Reserved Word)
  'end' (Reserved Word)
- 'break'
+ 'break' (Reserved Word)
  'void' (Reserved Word)
  'printf' (Reserved Word)
  'scanf' (Reserved Word)
