@@ -17,7 +17,6 @@
  ':' (Separator)
  ';' (Separator)
  'space' (Separator)
- 'char' (Reserved Word)
  'if' (Reserved Word)
  'else' (Reserved Word)
  'int' (Reserved Word)
