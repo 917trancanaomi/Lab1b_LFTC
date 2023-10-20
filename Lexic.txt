@@ -9,7 +9,7 @@ Alphabet:
 Lexic:
 
 a.Special symbols:
- - operators + - * / = < <= = >= <> % += -= *= /= %= == !
+ - operators + - * / = < <= = >= <> % == !
  - separators [] {} : ; space
  - reserved words:
 	char do if else int while begin end printf scanf break void return const
