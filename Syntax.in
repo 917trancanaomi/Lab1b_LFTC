@@ -9,7 +9,7 @@ output-statement = "printf" "(" expression ")"
 declaration-statement = "type" "identifier"
 type = type-basic | array
 type-basic = "char" | "int" | "string"
-array = type-basic "[" integer "]"
+array = type-basic "[" number "]"
 assignment-statement = identifier "=" expression
 expression = expression operator term | term
 term = term operator factor | factor
