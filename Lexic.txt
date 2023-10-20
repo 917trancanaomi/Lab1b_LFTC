@@ -4,7 +4,6 @@ Alphabet:
 
 - upper (A-Z) and lower case letters (a-z) of the english alphabet
 - decimal digits (0-9)
-- underline '_'
 - special characters + - * / = < <= = >= <> % == [] {} ; : ' " space
 
 Lexic:
